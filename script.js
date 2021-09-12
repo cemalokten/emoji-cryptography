@@ -11,7 +11,7 @@ const arr = str.split('');
 // const emojiStr = `🌂🧵🧶☄️🧤👓🥼🦺👔👕🪓🚬🏺🧦🧿🍓🍤🦜`;
 const emojiArr = splitter.splitGraphemes('🌷🎁💩😜👍🏳️‍🌈');
 
-console.log(emojiArr[1]);
+console.table(emojiArr[1]);
 
 function encrypt(e) {
 	console.log('clicked');
